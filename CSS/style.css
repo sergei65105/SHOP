@@ -1,0 +1,209 @@
+.shop_img{
+    width:300px;
+    height: 400px;
+}
+/* .container{
+    display: flex;
+    background-color: gray;
+}
+.container_shop{
+    max-width: 1500px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: justify;
+}*/
+.shop_content{
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: ghostwhite;
+    padding: 10px;
+    border-radius: 10px;
+} 
+.container_shop{
+    margin: 0 auto;
+    max-width: 500px;
+    border: 3px solid gray;
+    padding: 20px;
+    background-color: gainsboro;
+}
+.wrapper_img{
+    max-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+.shop_title{
+    text-align: center;
+}
+.shop_desk{
+    text-align: center;
+}
+.wrapper_btn{
+    max-width: 200px;
+    margin: 0 auto;
+}
+.shop_btn{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+}
+.shop{
+    display: flex;
+    margin-right: 10px;
+}
+.header_menu{
+    position: absolute;
+    z-index: 1;
+    display: none;
+    background-color: rgb(52, 125, 143);
+    border: 3px solid gray;
+    width: 100px;
+}
+.active{
+    display: block;
+}
+.header_item{
+    list-style: none;
+    background-color: ghostwhite;
+    max-width: 75px;
+    text-align: center;
+    border: 2px solid gray;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.header_list{
+    padding: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.btn_menu{
+    background-color: transparent;
+    padding-left: 65px;
+    border-radius: 10px;
+    margin-bottom: 10px; 
+    border: 0;
+    cursor: pointer;
+}
+body{
+    background: linear-gradient(to bottom right, rgb(52, 125, 143)35%, green);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.header_container{
+    padding-left: 50px;
+}
+.logo{
+    padding: 10px;
+}
+.price{
+    background-color: rgb(52, 125, 143);
+    max-width: 200px;
+    text-align: center;
+    margin: 0 auto 10px;
+    padding: 5px 0;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;   
+}
+.map_google, .map_yandex{
+    max-width: 900px;
+    margin: 50px auto 0;
+    height: 600px;
+}
+.map{
+    width: 900px;
+    height: 600px;
+    border: 10px solid rgb(8, 77, 94);
+}
+.maps{
+    background-color: rgb(8, 77, 94);
+    max-width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 7px 0;  
+}
+.itc-slider{
+    margin-bottom: 70px;
+}
+.video{
+    width: 500px;
+    margin-bottom: 50px;
+}
+.videos{
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+body.dark-theme{
+    background: linear-gradient(to bottom right, rgb(26, 2, 134)35%, rgb(1, 77, 35)65%);
+}
+body.dark-theme .maps{
+    background-color: rgb(56, 1, 78);
+}
+body.dark-theme .accordion__header{
+    background-color: rgb(56, 1, 78);
+}
+body.dark-theme .price{
+    background-color: rgb(56, 1, 78);
+}
+.header{
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+}
+#time{
+    color: rgb(8, 77, 94);
+    font-size: 40px;
+}
+body.dark-theme #time{
+    color: rgb(56, 1, 78);
+}
+.btn_toggle{
+    border: 0;
+    width: 100px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: rgb(8, 77, 94);
+    color: rgb(190, 190, 190);
+    height: 50px;
+    cursor: pointer;
+}
+body.dark-theme .btn_toggle{
+    background-color: rgb(56, 1, 78);
+}
+footer{
+    background-color: rgb(0, 0, 0);
+}
+.footer_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+.footer_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+.footer_item{
+    margin: 10px;
+}
+.footer_link{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+.feedback{
+    background: linear-gradient(to bottom right, rgb(52, 125, 143)35%, green);
+    padding: 15px 30px;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+}

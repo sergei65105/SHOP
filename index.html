@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Game</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="inc-CSS/inc-CSS.css">
+    <link rel="stylesheet" href="CSS/accordion.css">
+</head>
+<body>
+    <header class="header">
+        <img src="IMG/WAG.png" alt="" class="logo">
+        <button class="btn_toggle">Цвет</button>
+        <div class="clock">
+            <div id="time"></div>
+        </div>
+        <div class="header_container">
+            <button class="btn_menu" id="btn-menu">
+                <img src="IMG/Vector.svg" alt="" class="menu_img">
+            </button>
+            <div class="header_menu" id="menu">
+                <ul class="header_list">
+                    <li class="header_item">Вход</li>
+                    <li class="header_item">Корзина</li>
+                    <li class="header_item">Акции</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="itc-slider" data-slider="itc-slider">
+            <div class="itc-slider__wrapper">
+            <div class="itc-slider__items">
+                <div class="itc-slider__item">
+                    <section class="shop">
+                        <div class="container_shop">
+                            <div class="container">
+                                <div class="wrapper_img">
+                                    <img src="IMG/img1.png" alt="" class="shop_img">
+                                </div>
+                                <div class="shop_content">
+                                    <h1 class="shop_title">Sekiro Shadows Die Twice</h1>
+                                    <div class="accordion" id="accordion-1">
+                                        <div class="accordion__item">
+                                            <h1 class="accordion__header">О товаре</h1>
+                                            <div class="accordion__body">
+                                                <p class="shop_desk">Приключенческая игра с видом от третьего лица, где также нашли свое место элементы РПГ жанра. Игровой процесс рассчитан на одиночное прохождение, а также включает в себя интересную, а местами запутанную линию сюжета. История расскажет тебе о главном герое – могущественном воине, который вынужден был отправится на очень важную миссию. Все дело в том, что твоего верного товарища и наставника захватили в плен вражеские силы. Узнав такую печальную весть, ты немедленно отправляешься в путь. Тебе предстоит пройти массу испытаний и столкнуться с огромным количеством соперников прежде, чем ты отыщешь своего мастера. Заклятый враг будет делать все возможное, чтобы ты не добрался к заданной цели, поэтому тебе нужно всегда быть готовым к неожиданным поворотам событий. По мере прохождения пригодятся стратегические способности, которые позволят заранее продумать выигрышный план действий и эффективней справится с испытаниями. Также ты должен к каждому противнику находить особый подход, так как все они имеют могущественную силу. Сложность испытаний возрастает, поэтому стоит позаботиться о развитии своих навыков и умений.</p>   
+                                                <h1 class="price">Цена: 1999</h1>
+                                                <div class="wrapper_btn">  
+                                                    <button class="shop_btn" type="button" id="btn1" onclick="buy('btn1')">Купить</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container_shop">
+                            <div class="container">
+                                <div class="wrapper_img">
+                                    <img src="IMG/img2.png" alt="" class="shop_img">
+                                </div>
+                                <div class="shop_content">
+                                    <h1 class="shop_title">Dark Souls 3</h1>
+                                    <div class="accordion" id="accordion-2">
+                                        <div class="accordion__item">
+                                            <h1 class="accordion__header">О товаре</h1>
+                                            <div class="accordion__body">
+                                                <p class="shop_desk">Hовое продолжение легендарной серии игр, которая расскажет тебе новую историю и заманит в самый центр динамично развивающихся событий. Теперь огонь погас, а мир превратился ни в что иное как в руины. Тебе предстоит очень много сражаться с самыми разными созданиями и жуткими монстрами, одолеть которых не так уж и просто. Атмосфера в игре действительно притягивает и постоянно будет держать в напряжении. Графика приятная в своём исполнении, что относится и к звуковому сопровождению. Динамичный геймплей затянет на несколько часов и подарит массу бурных эмоций, и совершенно не важно, знакомы ли Вы с предыдущими частями DARK SOULS. Отправляйтесь в огромный мир, который покрыт пеленой мрака, разгадайте самые жуткие тайны и дайте ответы на многочисленные вопросы. Погрузить во тьму с головой и окажись в гуще самых тревожных и необъяснимых событий.</p>
+                                                <h1 class="price">Цена: 1999</h1>
+                                                <div class="wrapper_btn">  
+                                                    <button class="shop_btn" type="button" id="btn2" onclick="buy('btn2')">Купить</button>
+                                                </div>                
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container_shop">
+                            <div class="container">
+                                <div class="wrapper_img">
+                                    <img src="IMG/img3.png" alt="" class="shop_img">
+                                </div>
+                                <div class="shop_content">
+                                    <h1 class="shop_title">NIOH 2</h1>
+                                    <div class="accordion" id="accordion-3">
+                                        <div class="accordion__item">
+                                            <h1 class="accordion__header">О товаре</h1>
+                                            <div class="accordion__body">
+                                                <p class="shop_desk">Bторая часть достаточно популярного игрового проекта, разработанного в жанре экшен-РПГ. На этот раз нам предлагается взяться за исполнение роли отважного и бесстрашного японского воина, который ступит на тропу войны и сделает все возможное, чтобы истребить зло. В игре представлен довольно большой и разнообразный мир, который нам необходимо как можно тщательнее изучать, чтобы добывать ценные ресурсы и находить ответы на интересующие вопросы. Стоит быть максимально внимательным, ведь на пути встретится не малое количество опасностей, справиться с которыми не так то просто. Воину необходимо постоянно развивать свои навыки и боевые характеристики, чтобы суметь дать отпор любому, даже самому могущественному оппоненту. Мистическая сила пробралась в мир с целью его уничтожения и только на главного героя возлагается последняя надежда на спасение. Динамика игрового процесса проработана на высшем уровне, а графическое исполнение приближено к реальности, что позволит каждому с головой погрузиться в эту захватывающую атмосферу. Проходи испытания, увеличивай свою силу и добейся успеха, во что бы это не стало.</p>
+                                                <h1 class="price">Цена: 1999</h1>
+                                                <div class="wrapper_btn">  
+                                                    <button class="shop_btn" type="button" id="btn3" onclick="buy('btn3')">Купить</button>
+                                                </div>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="itc-slider__item">
+                    <section class="shop">
+                        <div class="container_shop">
+                        <div class="container">
+                            <div class="wrapper_img">
+                                <img src="IMG/img4.png" alt="" class="shop_img">
+                            </div>                <div class="shop_content">
+                                <h1 class="shop_title">Dead Cells</h1>
+                                <div class="accordion" id="accordion-4">
+                                    <div class="accordion__item">
+                                        <h1 class="accordion__header">О товаре</h1>
+                                        <div class="accordion__body">
+                                            <p class="shop_desk">Игра в жанре рогалика с видом сбоку, которая предлагает тебе встать на путь борца со злом. Перед тобой открываются необъятные просторы огромного замка, в котором множество коварных существ и жестокой вражеской силы. На пути будут встречаться секретные комнаты, открыть которые будет не так уж и просто, но зато они хранят в себе довольно ценные вещицы. Тебе нужно пройти как можно дольше, при этом находя любые доступные способы чтобы выжить. Здесь присутствует такая фишка, как перманентная смерть, где ты, потерпев поражение, начинаешь игру с самого начала. Но это, возможно, даже к лучшему, ведь с каждой новой жизнью у тебя будут открываться новые уровни замка, которые позволят тебе открыть для себя другие способы прохождения той или иной локации. Система боя здесь отлично проработана, а механика действий приносит одно удовольствие.</p>
+                                            <h1 class="price">Цена: 499</h1>
+                                            <div class="wrapper_btn">  
+                                                <button class="shop_btn" type="button" id="btn4" onclick="buy('btn4')">Купить</button>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container_shop">
+                        <div class="container">
+                            <div class="wrapper_img">
+                                <img src="IMG/img5.png" alt="" class="shop_img">
+                            </div>                <div class="shop_content">
+                                <h1 class="shop_title">The Binding of Isaac Repentance</h1>
+                                <div class="accordion" id="accordion-5">
+                                    <div class="accordion__item">
+                                        <h1 class="accordion__header">О товаре</h1>
+                                        <div class="accordion__body">
+                                            <p class="shop_desk">Новое масштабное дополнение игрового проекта, разработанного в стилистике аркадного экшена. Отправляйся в сказочный и непредсказуемый мир, проходи испытания и заверши миссию максимально успешно. Нам вновь предстоит пройти немалое количество преград, исследовать огромное количество территорий, разгадать мрачные тайны и не дать оппоненту одержать победу. События вновь погружают нас на просторы подземелья, которые нужно изучить вдоль и поперек, чтобы раздобыть необходимые предметы и ресурсы. Не обойдется и без битв с коварными противниками и их могущественными боссами, именно поэтому тебе следует позаботиться о боевом арсенале, в котором всегда должно находиться мощное оружие и атрибуты защиты. Из нововведений первым делом стоит отметить наличие ещё большего количества уникальных предметов, которые помогут пройти испытания и завершить задания. Порадует совершенно новая линия сюжета, с множественными поворотами событий, главами, а также непредсказуемой концовкой. Будь внимательным на пути к заданной цели, развивайся и сделай все, чтобы враг больше не посмел захватить подземельное царство.</p>
+                                            <h1 class="price">Цена: 749</h1>
+                                            <div class="wrapper_btn">  
+                                                <button class="shop_btn" type="button" id="btn5" onclick="buy('btn5')">Купить</button>
+                                            </div>                
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container_shop">
+                        <div class="container">
+                            <div class="wrapper_img">
+                                <img src="IMG/img6.png" alt="" class="shop_img">
+                            </div>                
+                            <div class="shop_content">
+                                <h1 class="shop_title">Risk of Rain</h1>
+                                <div class="accordion" id="accordion-6">
+                                    <div class="accordion__item">
+                                        <h1 class="accordion__header">О товаре</h1>
+                                        <div class="accordion__body">
+                                            <p class="shop_desk">Классика многопользовательских игр, представленных миру в жанре рогалика. Вторая часть понесла за собой массу дополнений и всевозможных изменений, что несказанно порадует поклонников. В игре имеется одиночный режим, который столкнет тебя с опасностями и увлекательными событиями. Также ты сможешь окунуться в атмосферу вместе со своими друзьями, собрав команду до четырех человек. Орды монстров не дремлют, и ты должен сделать все возможное, дабы их уничтожить. Мир игры имеет особенность генерироваться случайным образом, что сделает процесс интересным, оригинальным и в то же время более сложным. Исследуй планету на наличие полезных предметов, ценных ресурсов и мощного оружия. Ты должен разгадать все тайны, чтобы протраться к поставленной цели и выбраться из этого злополучного места. Видов противников масса и у каждого есть своя схема взаимодействия, поэтому тебе предстоит к каждому из них находить особый подход. По мере прохождения ты будешь увеличивать мощность своего главного героя, так как сложность игры с каждым разом будет увеличиваться. Не забывай собрать лучший боевой арсенал, дабы эффективней справится с задачей.</p>
+                                            <h1 class="price">Цена: 700</h1>
+                                            <div class="wrapper_btn">  
+                                                <button class="shop_btn" type="button" id="btn6" onclick="buy('btn6')">Купить</button>
+                                            </div>                
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                </section>
+                </div>
+                <div class="itc-slider__item">
+                    <section class="shop">
+                        <div class="container_shop">
+                            <div class="container">
+                                <div class="wrapper_img">
+                                    <img src="IMG/img7.png" alt="" class="shop_img">
+                                </div>                
+                                <div class="shop_content">
+                                    <h1 class="shop_title">Minecraft</h1>
+                                    <div class="accordion" id="accordion-7">
+                                        <div class="accordion__item">
+                                            <h1 class="accordion__header">О товаре</h1>
+                                            <div class="accordion__body">
+                                                <p class="shop_desk">Огромный открытый мир с массой возможностей и различных интересных задач ждёт тебя в популярной игре под названием Minecraft (Майнкрафт). Здесь ты повстречаешь интересных персонажей, а также сможешь обустроить собственный мир. Начнешь с создания героя, а затем займешься обустройством собственного жилища. Будь очень внимательным при построении, ведь свой дом нужно максимально защитить. Зло не дремлет и будет настигать тебя в любой неудобный для тебя момент. Здесь ты сможешь заняться рыболовством, раскапывать глубокие шахты в поисках полезных ископаемых, а также приручить животное. В твои обязанности будет входить построение городка, а также управления всеми процессами в нем. Удивляет разнообразие деталей, которые ты сможешь скрафтить из добытых ресурсов. Также, в твои обязанности будет входить занятие охотой и животноводством, чтобы обеспечить себя едой. Не забывай, что вокруг бродят жуткие зомби, сктлеты, пауки и масса недоброжелателей, основная часть которых активизируется в ночное время суток, поэтому будь осторожен.</p>
+                                                <h1 class="price">Цена: 1999</h1>
+                                                <div class="wrapper_btn">  
+                                                    <button class="shop_btn" type="button" id="btn7" onclick="buy('btn7')">Купить</button>
+                                                </div>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container_shop">
+                            <div class="container">
+                                <div class="wrapper_img">
+                                    <img src="IMG/img8.png" alt="" class="shop_img">
+                                </div>                <div class="shop_content">
+                                    <h1 class="shop_title">Terraria</h1>
+                                    <div class="accordion" id="accordion-8">
+                                        <div class="accordion__item">
+                                            <h1 class="accordion__header">О товаре</h1>
+                                            <div class="accordion__body">
+                                                <p class="shop_desk">Довольно популярная на сегодняшний день игра, которая перенесет тебя в сказочный мир. Данный проект выполнен в жанре песочницы с довольно открытым красочным миром. Здесь у тебя будет полная свобода в действиях. Единственное, что может тебя ограничить, это смена дня и ночи, а также различные жуткие твари, которые вылазят из своих пещер. Это говорит о том, что в игре нужно постоянно быть на чеку, а также незамедлительно обустроить себе безопасное убежище. Главный герой будет исследовать мир на наличие полезных ресурсов, из которых затем сможете создавать полезные для выживания предметы. Стоит не забывать о пополнении своего арсенала оружием, чтобы в случае схватки, атаковать своего соперника. Здесь тебе нужно много строить, копать и добывать, чтобы остаться в живых. Занимайся охотой, пополняй запасы еды, а также старайся улучшить себе оружие. Мир игры очень опасен, а жуткие создания смогут лишить тебя жизни в любой удобный момент.</p>
+                                                <h1 class="price">Цена: 350</h1>
+                                                <div class="wrapper_btn">  
+                                                    <button class="shop_btn" type="button" id="btn8" onclick="buy('btn8')">Купить</button>
+                                                </div>                
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container_shop">
+                            <div class="container">
+                                <div class="wrapper_img">
+                                    <img src="IMG/img9.png" alt="" class="shop_img">
+                                </div>                
+                                <div class="shop_content">
+                                    <h1 class="shop_title">Valheim</h1>
+                                    <div class="accordion" id="accordion-9">
+                                        <div class="accordion__item">
+                                            <h1 class="accordion__header">О товаре</h1>
+                                            <div class="accordion__body">
+                                                <p class="shop_desk">Динамичный и увлекательный приключенческий экшен, который познакомит нас со скандинавской мифологией и вовлечет в череду захватывающих событий. Сюжетная линия отправляет нас на величественные просторы фантастического мира, который игроку необходимо покорить, дабы заслужить благословение богов. Исполни роль отважного воина, который отправляется в долгий и опасный путь с целью уничтожения сторонников зла и разгадки самых мрачных тайн. Изучая локации, ты будешь добывать ценные ресурсы, элементы защиты, а также стараться пополнять боевой арсенал мощным оружием. Не стоит забывать о совершенствовании своих навыков и пополнении знаний, ведь это может точно пригодится тебе в борьбе с более могущественным оппонентом либо решении сложных задач. Будь внимательным, сосредоточься на пути, продумывай действия наперед, а также срази всех, кто посмеет тебе помешать. Миру грозит опасность уничтожения и лишь на тебя возлагается последняя надежда на его спасение, после чего ты сумеешь попасть в желаемые земли. Графика отлично продумана, обладает приятной анимацией и яркими красками, динамика игры на высоте, а общая атмосфера точно не оставит тебя равнодушным.</p>
+                                                <h1 class="price">Цена: 450</h1>
+                                                <div class="wrapper_btn">  
+                                                    <button class="shop_btn" type="button" id="btn9" onclick="buy('btn9')">Купить</button>
+                                                </div>                
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
+                    </section>
+                </div>
+            </div>
+            </div>
+            <!-- Кнопки для перехода к предыдущему и следующему слайду -->
+            <button class="itc-slider__btn itc-slider__btn_prev"></button>
+            <button class="itc-slider__btn itc-slider__btn_next"></button>
+        </div>
+        <h1 class="maps">Карты:)</h1>
+        <div class="itc-slider" data-slider="itc-slider">
+            <div class="itc-slider__wrapper">
+              <div class="itc-slider__items">
+                <div class="itc-slider__item">
+                    <div class="map_google">
+                        <div class="map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40491.44025924115!2d38.655065860366854!3d50.63241069879801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41247607cb97236d%3A0x5d7a9104b8d8749e!2z0JDQu9C10LrRgdC10LXQstC60LAsINCR0LXQu9Cz0L7RgNC-0LTRgdC60LDRjyDQvtCx0Lsu!5e0!3m2!1sru!2sru!4v1682860198855!5m2!1sru!2sru" width="900" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="itc-slider__item">
+                    <div class="map_yandex">
+                        <div class="map">
+                            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A86d0d97c65ac8501679f5e0e327000440d53189add0f5c5c7973dc44ae789fcd&amp;source=constructor" width="900" height="600" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <!-- Кнопки для перехода к предыдущему и следующему слайду -->
+            <button class="itc-slider__btn itc-slider__btn_prev"></button>
+            <button class="itc-slider__btn itc-slider__btn_next"></button>
+        </div>
+        <h1 class="maps">Видео</h1>
+        <div class="videos">
+            <video controls class="video"> 
+                <source src="video/video1.mp4" type="video/mp4">
+            </video>
+            <video controls class="video"> 
+                <source src="video/video2.mp4" type="video/mp4">
+            </video>
+            <video controls class="video"> 
+                <source src="video/video3.mp4" type="video/mp4">
+            </video>
+            <video controls class="video"> 
+                <source src="video/video4.mp4" type="video/mp4">
+            </video>
+            <video controls class="video"> 
+                <source src="video/video5.mp4" type="video/mp4">
+            </video>
+            <video controls class="video"> 
+                <source src="video/video6.mp4" type="video/mp4">
+            </video>
+        </div>
+    </main>
+    <footer>
+        <div class="footer_container">
+            <img src="/IMG/WAG.png" alt="" class="footer_img">
+            <ul class="footer_list">
+                <li class="footer_item">
+                    <a href="#" class="footer_link">Главная</a>
+                </li>
+                <li class="footer_item">
+                    <a href="#" class="footer_link">Слайдер</a>
+                </li>
+                <li class="footer_item">
+                    <a href="#" class="footer_link">Карты</a>
+                </li>
+                <li class="footer_item">
+                    <a href="#" class="footer_link">Видео</a>
+                </li>
+            </ul>
+            <a href="tel:+7 908 253-49-94" class="feedback">Связвться</a>
+        </div>
+    </footer>
+    <script src="inc-scripts/inc-scripts.js"></script>
+    <script src="SCRIPTS/scripts.js"></script>
+    <script src="menu/scripts.js"></script>
+    <script src="SCRIPTS/accordion.js"></script>
+    <script>
+        let btn = document.querySelector(".btn_toggle");
+        btn.addEventListener("click", function(){
+            document.body.classList.toggle("dark-theme")
+        })
+    </script>
+</body>
+</html>
